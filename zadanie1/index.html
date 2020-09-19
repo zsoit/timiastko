@@ -39,10 +39,8 @@
 
             </form>
         </div>
-
-        <hr>
     </header>
-
+    <hr>
 
     <fieldset id="main" class="main-frame">
         <legend class="main-frame__header">Czas: 10minut</legend>
@@ -84,7 +82,7 @@
                     <li id="b" tabindex="1" onclick="trueB3()">Położył się na torach</li>
                     <li id="a" tabindex="1" onclick="falseA3()">wywrócił się o widły</li>
                     <li id="a" tabindex="1" onclick="falseA3()">zobaczył Melcherta</li>
-                </ol type="A">
+                </ol>
             </li>
             <li>
                 <p>Jak ma na imię Wokulski?</p>
@@ -160,40 +158,30 @@
                 </ol>
             </li>
         </ol>
-        <center>
-            <button onclick="showEgg()">Koniec testu</button>
+
+        <center><button onclick="showEgg()">Koniec testu</button>
             <button> <a href="#top">Powrót do początku</a> </button> </center>
-
-
-
 
     </fieldset>
 
     <fieldset id="showEgg" style="display:none;">
-        <center>
-            <div class="wrapper-avatar">
-                <img src="img/avatar.png" alt="ich bin da" width="200px"> <br> Gratulacje!
-        </center>
+
+        <div class="wrapper-avatar">
+            <center> <img src="img/avatar.png" alt="ich bin da" width="200px"> <br> Gratulacje!</center>
         </div>
     </fieldset>
     <br>
     <fieldset>
         <footer>
             <center><b>&copy Jakub Achtelik III TI (16.09.2020)</b></center>
-
-
             <hr> Twój adres IP:
             <ps id="gfg"></ps>
             <hr>
             <center><a href="https://github.com/zsoit/timiastko/tree/master/zadanie1" target="_blank">Zobacz kod (Github)</a> <br> <img src="https://myzsoit.pl/img/logo/github.png" width="60px"></center>
-
         </footer>
-
-
     </fieldset>
 
     <script src="app/index.js"></script>
-
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
@@ -204,9 +192,6 @@
                 $("#gfg").html(data.ip);
             })
     </script>
-
-
-
 
 </body>
 
